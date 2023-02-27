@@ -1,0 +1,77 @@
+.profileTitle{
+    width: 75%;
+    margin: 0 auto;
+}
+.profile{
+    display: flex;
+}
+.myprofile{
+    width: 40%;
+    margin-right: 4rem;
+}
+.başlık{
+    text-align: start;
+    color: blue;
+    font-size: 1.5rem;
+}
+.myprofile div{
+    text-align: start;
+}
+.profilul{
+    display: flex;
+}
+
+.aboutme{
+    width: 40%;
+    text-align: start;
+}
+
+.aboutme h2{
+    color: blue;
+    margin-bottom: 2.3rem;
+}
+
+.aboutme p{
+    line-height: 2;
+}
+
+.lineContainer{
+    border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+  margin: 5% 10% 0 10%;
+}
+.profilul p{
+    margin-bottom: 0;
+}
+.antalya{
+    margin-top: 2.1rem;
+}
+.pos{
+    margin-top: 2rem;
+}
+.profilsoru{
+    margin-right: 1rem;
+}
+
+@media (max-width: 550px){
+    .profileTitle{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .profile{
+        display: flex;
+        flex-direction: column;
+    }
+    .myprofile{
+        width: 100%;
+    }
+    .aboutme{
+        width: 100%;
+    }
+}

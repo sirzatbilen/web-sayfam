@@ -1,0 +1,38 @@
+header{
+    width: 70%;
+    margin: 3rem auto 3rem auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    border: 1px solid rgb(74, 74, 133);
+    padding: 0.3rem 0.5rem;
+    border-radius: 10%;
+}
+img{
+    height: 8vh;
+}
+
+@media (max-width: 550px){
+    header{
+        width: 100%;
+        justify-content: center;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav a {
+        margin: 1rem 0;
+    }
+}

@@ -1,0 +1,66 @@
+.projeTıtle{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.projeler{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.proje{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 28%;
+    margin-bottom: 1rem;
+    
+}
+
+.proje img{
+    width: 100%;
+    height: 25vh;
+}
+.navi{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+p{
+    text-align: start;
+}
+.buttons{
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+.buttons a{
+    color: #3730A3;
+    border: 1px solid #3730A3;
+    border-radius: 0.25rem;
+    padding:0.4rem 1rem;
+}
+@media (max-width: 550px){
+    .projeTıtle{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .projeler{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .proje{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 70%;
+        margin: 3rem auto;
+    }
+    .proje img{
+        width: 100%;
+        height: 40vh;
+    }
+}

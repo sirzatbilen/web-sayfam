@@ -1,0 +1,54 @@
+.contbg{
+    background-color:#F9F9F9;
+}
+.contact{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.adres{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+.mesaj{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 10vh 0;
+}
+.mesaj a{
+    text-decoration: none;
+    color: #AF0C48;
+}
+.adres a{
+    text-decoration: none;
+}
+.personel{
+    color: black;
+}
+.github{
+    color: #00AB6B;
+}
+.linkedin{
+    color: #0077B5;
+}
+@media (max-width: 550px){
+    .contbg{
+        width: 100%;
+    }
+    .contact{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .adres{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+}

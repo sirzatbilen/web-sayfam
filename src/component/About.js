@@ -11,7 +11,7 @@ export default function About() {
       <div className="about-left">
         <div className="line">
           <img src={line} />
-          <span>şirzat bilen</span>
+          <span>Şirzat Bilen</span>
         </div>
         <h1>Creative thinker Minimalism lover</h1>
         <span className="hello">
